@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/second-capstone-react-project-ecommerce-site/static/css/main.ca25bb3f.css",
+    "main.js": "/second-capstone-react-project-ecommerce-site/static/js/main.9ea2c16d.js",
+    "static/js/787.4bb2dbfb.chunk.js": "/second-capstone-react-project-ecommerce-site/static/js/787.4bb2dbfb.chunk.js",
+    "static/media/banner-image1.PNG": "/second-capstone-react-project-ecommerce-site/static/media/banner-image1.419ab51ccad06b87df1b.PNG",
+    "static/media/empty-cart.PNG": "/second-capstone-react-project-ecommerce-site/static/media/empty-cart.b76d8da303a86ddbe8ce.PNG",
+    "static/media/venia-logo.PNG": "/second-capstone-react-project-ecommerce-site/static/media/venia-logo.b6a0a8ce7f654036170e.PNG",
+    "static/media/sliders.svg": "/second-capstone-react-project-ecommerce-site/static/media/sliders.07a0e59562aded129aac7c8a5259c413.svg",
+    "static/media/share-2.svg": "/second-capstone-react-project-ecommerce-site/static/media/share-2.c9452d8d0a01f15f7b30c66f52b97baa.svg",
+    "index.html": "/second-capstone-react-project-ecommerce-site/index.html",
+    "static/media/instagram.svg": "/second-capstone-react-project-ecommerce-site/static/media/instagram.098205e681981cff2deaa43da7f8afa7.svg",
+    "static/media/arrow-right-circle.svg": "/second-capstone-react-project-ecommerce-site/static/media/arrow-right-circle.957953b5dffd6f429225a5a8d3176cb1.svg",
+    "static/media/shopping-bag.svg": "/second-capstone-react-project-ecommerce-site/static/media/shopping-bag.7865a20d4f73677ab5144fd6411a11f8.svg",
+    "static/media/arrow-left-circle.svg": "/second-capstone-react-project-ecommerce-site/static/media/arrow-left-circle.64523b475812dd861c1e61fb77e08cab.svg",
+    "static/media/shopping-bag-white.svg": "/second-capstone-react-project-ecommerce-site/static/media/shopping-bag-white.37561a43c7b22eee98debc114ea20c9b.svg",
+    "static/media/menu.svg": "/second-capstone-react-project-ecommerce-site/static/media/menu.00b6659cfa8e98b12c0680b419f84ac3.svg",
+    "static/media/user.svg": "/second-capstone-react-project-ecommerce-site/static/media/user.36f9dff636796a3645348ee7f29f2509.svg",
+    "static/media/search.svg": "/second-capstone-react-project-ecommerce-site/static/media/search.d9388588132a09c360a92e9f450b2fa1.svg",
+    "static/media/arrow-up.svg": "/second-capstone-react-project-ecommerce-site/static/media/arrow-up.bffb5a388e9ce654e32b9665d1dbed6d.svg",
+    "static/media/x.svg": "/second-capstone-react-project-ecommerce-site/static/media/x.18ffa5a5f6cf0611910c94c00b129ba6.svg",
+    "static/media/arrow-down.svg": "/second-capstone-react-project-ecommerce-site/static/media/arrow-down.ad1e372bfba7126beaef93d275515815.svg",
+    "static/media/twitter.svg": "/second-capstone-react-project-ecommerce-site/static/media/twitter.3d9f31115be6b897b5d45c0aad4c1c1f.svg",
+    "static/media/heart.svg": "/second-capstone-react-project-ecommerce-site/static/media/heart.3b35352339d37da7c50b5bcdbc557cd0.svg",
+    "static/media/star.svg": "/second-capstone-react-project-ecommerce-site/static/media/star.55cdb6a54c038786c25f41486284f7d2.svg",
+    "static/media/facebook.svg": "/second-capstone-react-project-ecommerce-site/static/media/facebook.b5b54c5572636785078aa70b8bdffe26.svg",
+    "static/media/chevron-right.svg": "/second-capstone-react-project-ecommerce-site/static/media/chevron-right.ee59aa22b6bf156e0eb4aea386711bbf.svg",
+    "static/media/chevron-down.svg": "/second-capstone-react-project-ecommerce-site/static/media/chevron-down.fadc45040e456e5cea02f3cd047ee412.svg",
+    "main.ca25bb3f.css.map": "/second-capstone-react-project-ecommerce-site/static/css/main.ca25bb3f.css.map",
+    "main.9ea2c16d.js.map": "/second-capstone-react-project-ecommerce-site/static/js/main.9ea2c16d.js.map",
+    "787.4bb2dbfb.chunk.js.map": "/second-capstone-react-project-ecommerce-site/static/js/787.4bb2dbfb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca25bb3f.css",
+    "static/js/main.9ea2c16d.js"
+  ]
+}
