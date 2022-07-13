@@ -1,0 +1,424 @@
+.cart-wrapper {
+    height: auto;
+    width: 100%;
+    margin-bottom: 24px;
+
+    @include tablet-down; @include desktop-down {
+        width: calc(100% - 20px);
+        margin: 0;
+    }
+
+    font: {
+        style: $unnamed-font-style-normal;
+        variant: normal;
+        weight: $unnamed-font-weight-normal;
+        size: $unnamed-font-size-16;
+        family: $unnamed-font-family-muli;
+    }   
+    line-height: $unnamed-line-spacing-24;
+    letter-spacing:  $unnamed-character-spacing-0;
+    color: $unnamed-color-172026;
+    text-align: left;
+
+    h3 {
+        font-size: $unnamed-font-size-16;
+        line-height: $unnamed-line-spacing-24;
+    }
+    h4 {
+        font: {
+            weight: $unnamed-font-weight-600;
+            size: 20px;
+        }   
+        line-height: 25px;
+    }
+
+    .cart-header {
+        @include flexBox(column, space-between, center);
+        width: 100%;
+        height: 84px;
+        margin-top: 10px;
+
+        @include tablet-down {
+            height: 67px;
+        }
+        @include tablet {
+            height: 67px;
+        }
+
+        h1 {
+            font: {
+                weight: $unnamed-font-weight-600;
+                size: $unnamed-font-size-48;
+                family: $unnamed-font-family-source-serif-pro;
+            }
+            line-height: $unnamed-line-spacing-45;
+            text-align: center;
+
+            @include tablet-down {
+                font-size: 1.5em;
+            }
+            @include tablet {
+                font-size: 2em;
+            }
+        }
+        .line {
+            width: 102px;
+            height: 8px;
+            background: $primary-brand 0% 0% no-repeat padding-box;
+        }
+    }
+
+    .cart-wrapper {
+        @include flexBox(row, '', '');
+        width: 100%;
+
+        @include tablet-down {
+            @include flexBox(column, '', '');
+        }
+        @include tablet{
+            @include flexBox(column, '', '');
+        }
+
+        .cart-info {
+            width: 60%;
+            height: 100%;
+
+            @include tablet-down; @include desktop-down {
+                width: 100%;
+            }
+
+            .cart-items {
+                min-height: 463px;
+                height: auto;
+
+                @include tablet-down; @include desktop-down {
+                    min-height: 230px;
+                    height: auto;
+                }
+
+                .cart-item {
+                    @include flexBox(row, space-between, center);
+                    height: 199px;
+                    margin-bottom: 33px;
+
+                    @include tablet-down; @include desktop-down {
+                        @include flexBox(row, space-between, '');
+                        margin-top: 34px;
+                    }
+
+                    .item-image, .buttons-group  {
+                        height: 100%;
+                        width: 25%;
+                        padding: 5px;
+                    }
+
+                    .item-image {
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                        @include tablet-down {
+                            height: 70%;
+                            width: 35%;
+                            margin-top: -75px;
+                        }
+                        @include tablet {
+                            height: 90%;
+                            width: 35%;
+                            margin-top: -55px;
+                        }
+                    }
+                    .item-attributes {
+                        @include flexBox(row, center, center);
+                        height: 100%;
+                        width: 50%;
+
+                        @include tablet-down; @include desktop-down {
+                            height: 100%;
+                            width: 50%;
+                        }
+
+                        @include tablet-down; @include desktop-down {
+                            @include flexBox(column, center, center);
+                        }
+
+                        .item-info {
+                            h4, h3 {
+                                margin-bottom: 8px;
+                            }
+                        }
+                        .item-quantity {
+                            @include flexBox(row,space-between,center);
+                            width: 50%;
+                            height: 20%;
+
+                            margin: {
+                                top: 16px;
+                                bottom: 40px;
+                            }
+                            @include tablet-down; @include desktop-down {
+                                h4 {
+                                    font-size: 18px;
+                                }
+                                line-height: 18px;
+                            }
+
+                            button, input {
+                                background: $white 0% 0% no-repeat padding-box;
+                                border: 2px solid $gray-m1;
+                                text-align: center;
+                                font: {
+                                    weight: $unnamed-font-weight-600;
+                                    size: $unnamed-font-size-16;
+                                }
+                                color: $unnamed-color-172026;
+                            }
+                            button {
+                                mix-blend-mode: normal;
+                                border-radius: 50%;
+                                width: 16%;
+                                height: 80%;
+                                margin: 0 8px;
+                                cursor: pointer;
+
+                                &:disabled {
+                                    background-color: $gray-l1;
+                                }
+
+                                @include tablet-down; @include desktop-down {
+                                    width: 18%;
+                                    height: 85%;
+                                    margin: 5px 4px;
+                                }
+                            }
+                            input {
+                                width:58%;
+                                height: 100%;
+                                border-radius: 8px;
+                                margin: 0 0;
+                                text-align: center;
+                            }
+                            @include flexBox(row,center,center);
+                            @include tablet-down {
+                                @include flexBox(row, center, center);
+                                width: 100%;
+                                height: 33%;
+                            }
+                            @include desktop-down {
+                                @include flexBox(row,center,center);
+                            }
+
+                        }
+                    }
+                    .buttons-group {
+                        @include flexBox(column,center,center);
+
+                        @include tablet-down {
+                            visibility: hidden;
+                            width: calc(100% - 40px);
+                            height: 132px;
+                            padding: 0px 0;
+                            border: 2px solid #EAEBEB;
+                            background-color: #FFFFFF;
+                            position: absolute;
+                            margin-top: -73px;
+
+                            &.active {
+                                visibility:visible;
+                            }
+                        }
+                        
+                        @include tablet {
+                            visibility: hidden;
+                            width: calc(100% - 40px);
+                            height: 142px;
+                            padding: 0px 0;
+                            border: 2px solid #EAEBEB;
+                            background-color: #FFFFFF;
+                            position: absolute;
+                            margin-top: -73px;
+
+                            &.active {
+                                visibility:visible;
+                            }
+                        }
+
+                        .btn-close {
+                            display: none;
+                            width: 100%;
+                            @include flexBox(row,flex-end, center);
+                            background-color: #EAEBEB;
+
+                            @include tablet-down {
+                                display: inline-flex;
+                            }
+                            @include tablet {
+                                display: inline-flex;
+                            }
+
+                            #btn-mobile-cross {
+                                display: none;
+                                font-size: 20px;
+                                width: 25px;
+                                height: 10px;
+                                background-color: #EAEBEB;
+                                @include tablet-down {
+                                    display: block;
+                                }
+                                @include tablet {
+                                    display: block;
+                                }
+                            }
+                        }
+
+                        button {
+                            border: none;
+                            background-color: $white;
+                            margin-bottom: 16px;
+                            text-align: center;
+                            cursor: pointer;
+                            font: {
+                                weight: $unnamed-font-weight-600;
+                                size: 12px;
+                            }
+                            line-height: 14px;
+                            img { 
+                                width: 16px;
+                                height: 16px;
+                                margin-right: 8px;
+                            }
+                        }
+
+                    }
+                    .button-group-menu {
+                        display: none;
+                        @include tablet-down; @include desktop-down {
+                            display: block;
+                            margin-top: -218px;
+                            width: 12%;
+                            button {
+                                background-color: $white;
+                                border: none;
+                                font-size: 30px;
+                                color: $unnamed-color-172026;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
+            .cart-other-details {
+                @include flexBox(column, center, '');
+                height: auto;
+                @include tablet-down; @include desktop-down {
+                    height: 200px;
+                    margin-bottom: 24px;
+                    margin-top: 24px;
+                }
+
+                .details-container {
+                    @include flexBox(row, space-between, center );
+                    border: 1px solid $gray-m1;
+                    height: 49px;
+                    width: 100%;
+                    padding: 20px 20px;
+                    @include tablet-down; @include desktop-down {
+                        padding: 40px 0px 40px 30px;
+                    }
+
+                    .section-1 {
+                        width: 75%;
+                        h4 {
+                            font-weight: $unnamed-font-weight-normal;
+                            @include tablet-down; @include desktop-down {
+                                font-size: 18px;
+                                line-height: 18px;
+                            }
+                        }
+                    }
+                    .section-2 {
+                        @include flexBox(row, space-between, center);
+                        width: 35%;
+                        h5 {
+                            font-size: $unnamed-font-size-14;
+
+                            @include tablet-down {
+                                line-height: 17.5px;
+                                position: relative;
+                                width: 200px;
+                                margin: 48px 0 0 -194px;
+                                height: 18px;
+                            }
+                        }
+                        button {
+                            background-color: $white;
+                            border: none;
+                            cursor: pointer;
+
+                            @include tablet-down {
+                                font-size: 12px;
+                            }
+                            img {
+                                margin-left: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .price-summary {
+            @include flexBox(column, space-between, '');
+            background: $white 0% 0% no-repeat padding-box;
+            box-shadow: 0px 0px 8px #0000000D;
+            border: 1px solid #D1D3D6;
+            border-radius: 2px;
+            width: 40%; 
+            height: 450px;
+            padding: 32px;
+            margin-bottom: 24px;
+
+            @include tablet-down {
+                border: none;
+                width: 100%;
+                padding: 24px 0 0 0;
+            }
+            @include tablet {
+                border: none;
+                width: 100%;
+                padding: 24px 0 0 0;
+            }
+
+            .price-list-group {
+                @include flexBox(column, space-between, '');
+                height: 200px;
+                .price-item {
+                    @include flexBox(row, space-between, '');
+                }
+            }
+            .button-group {
+                @include flexBox(column, space-between , center);
+                height: 105px;
+
+                button {
+                    border-radius: 28px;
+                    width: 247px;
+                    height: 40px;
+                    border: none;
+                    cursor: pointer;
+                }
+                #btn-checkout {
+                    background: $primary-brand 0% 0% no-repeat padding-box;
+                    color: $white;
+                    text-align: center;
+                    cursor: pointer;
+                    img {
+                        margin-right: 16px;
+                        width: 16px;
+                        height: 16px;
+                    }
+                }
+            }
+        }
+    }
+
+}

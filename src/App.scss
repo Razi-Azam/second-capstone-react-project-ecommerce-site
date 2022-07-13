@@ -1,0 +1,14 @@
+@import './styles/reset';
+@import './styles/variables';
+@import './styles/mixin';
+@import './styles/font-face';
+@import './styles/mediaQueries';
+
+@import './header/Header.scss';
+@import './banner/CategoryBanner.scss';
+@import './footer/Footer.scss';
+@import './product-list/ProductList.scss';
+@import './product-details/ProductDetails.scss';
+@import './cart/Cart.scss';
+@import './cart/EmptyCartAlert.scss';
+@import './product-details/Slider/Slider.scss';
