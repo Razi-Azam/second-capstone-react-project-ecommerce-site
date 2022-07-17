@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/second-capstone-react-project-ecommerce-site/static/css/main.ca25bb3f.css",
-    "main.js": "/second-capstone-react-project-ecommerce-site/static/js/main.990f5bb8.js",
+    "main.css": "/second-capstone-react-project-ecommerce-site/static/css/main.f608a02f.css",
+    "main.js": "/second-capstone-react-project-ecommerce-site/static/js/main.1af716e5.js",
     "static/js/787.4bb2dbfb.chunk.js": "/second-capstone-react-project-ecommerce-site/static/js/787.4bb2dbfb.chunk.js",
     "static/media/banner-image1.PNG": "/second-capstone-react-project-ecommerce-site/static/media/banner-image1.419ab51ccad06b87df1b.PNG",
     "static/media/empty-cart.PNG": "/second-capstone-react-project-ecommerce-site/static/media/empty-cart.b76d8da303a86ddbe8ce.PNG",
@@ -26,12 +26,12 @@
     "static/media/facebook.svg": "/second-capstone-react-project-ecommerce-site/static/media/facebook.b5b54c5572636785078aa70b8bdffe26.svg",
     "static/media/chevron-right.svg": "/second-capstone-react-project-ecommerce-site/static/media/chevron-right.ee59aa22b6bf156e0eb4aea386711bbf.svg",
     "static/media/chevron-down.svg": "/second-capstone-react-project-ecommerce-site/static/media/chevron-down.fadc45040e456e5cea02f3cd047ee412.svg",
-    "main.ca25bb3f.css.map": "/second-capstone-react-project-ecommerce-site/static/css/main.ca25bb3f.css.map",
-    "main.990f5bb8.js.map": "/second-capstone-react-project-ecommerce-site/static/js/main.990f5bb8.js.map",
+    "main.f608a02f.css.map": "/second-capstone-react-project-ecommerce-site/static/css/main.f608a02f.css.map",
+    "main.1af716e5.js.map": "/second-capstone-react-project-ecommerce-site/static/js/main.1af716e5.js.map",
     "787.4bb2dbfb.chunk.js.map": "/second-capstone-react-project-ecommerce-site/static/js/787.4bb2dbfb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca25bb3f.css",
-    "static/js/main.990f5bb8.js"
+    "static/css/main.f608a02f.css",
+    "static/js/main.1af716e5.js"
   ]
 }
