@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/second-capstone-react-project-ecommerce-site/static/css/main.9d419db8.css",
-    "main.js": "/second-capstone-react-project-ecommerce-site/static/js/main.b4a2880e.js",
+    "main.css": "/second-capstone-react-project-ecommerce-site/static/css/main.c9210e89.css",
+    "main.js": "/second-capstone-react-project-ecommerce-site/static/js/main.36f3c714.js",
     "static/js/787.4bb2dbfb.chunk.js": "/second-capstone-react-project-ecommerce-site/static/js/787.4bb2dbfb.chunk.js",
     "static/media/banner-image1.PNG": "/second-capstone-react-project-ecommerce-site/static/media/banner-image1.419ab51ccad06b87df1b.PNG",
     "static/media/empty-cart.PNG": "/second-capstone-react-project-ecommerce-site/static/media/empty-cart.b76d8da303a86ddbe8ce.PNG",
@@ -26,13 +26,14 @@
     "static/media/star.svg": "/second-capstone-react-project-ecommerce-site/static/media/star.55cdb6a54c038786c25f41486284f7d2.svg",
     "static/media/facebook.svg": "/second-capstone-react-project-ecommerce-site/static/media/facebook.b5b54c5572636785078aa70b8bdffe26.svg",
     "static/media/chevron-right.svg": "/second-capstone-react-project-ecommerce-site/static/media/chevron-right.ee59aa22b6bf156e0eb4aea386711bbf.svg",
-    "static/media/chevron-down.svg": "/second-capstone-react-project-ecommerce-site/static/media/chevron-down.fadc45040e456e5cea02f3cd047ee412.svg",
-    "main.9d419db8.css.map": "/second-capstone-react-project-ecommerce-site/static/css/main.9d419db8.css.map",
-    "main.b4a2880e.js.map": "/second-capstone-react-project-ecommerce-site/static/js/main.b4a2880e.js.map",
+    "static/media/chevron-down.svg": "/second-capstone-react-project-ecommerce-site/static/media/chevron-down.c0c85f0327c8b7a8c6de6a3e5de52404.svg",
+    "static/media/check.svg": "/second-capstone-react-project-ecommerce-site/static/media/check.ffd4d9f896701562a4cb.svg",
+    "main.c9210e89.css.map": "/second-capstone-react-project-ecommerce-site/static/css/main.c9210e89.css.map",
+    "main.36f3c714.js.map": "/second-capstone-react-project-ecommerce-site/static/js/main.36f3c714.js.map",
     "787.4bb2dbfb.chunk.js.map": "/second-capstone-react-project-ecommerce-site/static/js/787.4bb2dbfb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d419db8.css",
-    "static/js/main.b4a2880e.js"
+    "static/css/main.c9210e89.css",
+    "static/js/main.36f3c714.js"
   ]
 }
