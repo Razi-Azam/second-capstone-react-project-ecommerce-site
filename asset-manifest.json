@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/second-capstone-react-project-ecommerce-site/static/css/main.bbd2cd3c.css",
-    "main.js": "/second-capstone-react-project-ecommerce-site/static/js/main.168fa10c.js",
+    "main.js": "/second-capstone-react-project-ecommerce-site/static/js/main.22d267ae.js",
     "static/js/787.4bb2dbfb.chunk.js": "/second-capstone-react-project-ecommerce-site/static/js/787.4bb2dbfb.chunk.js",
     "static/media/banner-image1.PNG": "/second-capstone-react-project-ecommerce-site/static/media/banner-image1.419ab51ccad06b87df1b.PNG",
     "static/media/empty-cart.PNG": "/second-capstone-react-project-ecommerce-site/static/media/empty-cart.b76d8da303a86ddbe8ce.PNG",
@@ -29,11 +29,11 @@
     "static/media/chevron-down.svg": "/second-capstone-react-project-ecommerce-site/static/media/chevron-down.c0c85f0327c8b7a8c6de6a3e5de52404.svg",
     "static/media/check.svg": "/second-capstone-react-project-ecommerce-site/static/media/check.ffd4d9f896701562a4cb.svg",
     "main.bbd2cd3c.css.map": "/second-capstone-react-project-ecommerce-site/static/css/main.bbd2cd3c.css.map",
-    "main.168fa10c.js.map": "/second-capstone-react-project-ecommerce-site/static/js/main.168fa10c.js.map",
+    "main.22d267ae.js.map": "/second-capstone-react-project-ecommerce-site/static/js/main.22d267ae.js.map",
     "787.4bb2dbfb.chunk.js.map": "/second-capstone-react-project-ecommerce-site/static/js/787.4bb2dbfb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bbd2cd3c.css",
-    "static/js/main.168fa10c.js"
+    "static/js/main.22d267ae.js"
   ]
 }
