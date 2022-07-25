@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/second-capstone-react-project-ecommerce-site/static/css/main.2c26f15f.css",
+    "main.css": "/second-capstone-react-project-ecommerce-site/static/css/main.9374cfd7.css",
     "main.js": "/second-capstone-react-project-ecommerce-site/static/js/main.6515344a.js",
     "static/js/787.4bb2dbfb.chunk.js": "/second-capstone-react-project-ecommerce-site/static/js/787.4bb2dbfb.chunk.js",
     "static/media/banner-image1.PNG": "/second-capstone-react-project-ecommerce-site/static/media/banner-image1.419ab51ccad06b87df1b.PNG",
@@ -28,12 +28,12 @@
     "static/media/chevron-right.svg": "/second-capstone-react-project-ecommerce-site/static/media/chevron-right.ee59aa22b6bf156e0eb4aea386711bbf.svg",
     "static/media/chevron-down.svg": "/second-capstone-react-project-ecommerce-site/static/media/chevron-down.c0c85f0327c8b7a8c6de6a3e5de52404.svg",
     "static/media/check.svg": "/second-capstone-react-project-ecommerce-site/static/media/check.ffd4d9f896701562a4cb.svg",
-    "main.2c26f15f.css.map": "/second-capstone-react-project-ecommerce-site/static/css/main.2c26f15f.css.map",
+    "main.9374cfd7.css.map": "/second-capstone-react-project-ecommerce-site/static/css/main.9374cfd7.css.map",
     "main.6515344a.js.map": "/second-capstone-react-project-ecommerce-site/static/js/main.6515344a.js.map",
     "787.4bb2dbfb.chunk.js.map": "/second-capstone-react-project-ecommerce-site/static/js/787.4bb2dbfb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c26f15f.css",
+    "static/css/main.9374cfd7.css",
     "static/js/main.6515344a.js"
   ]
 }
